@@ -99,7 +99,7 @@ For example, take the following amp-ad:
 <amp-ad width="320" height="50"
             type="doubleclick"
             data-slot="/4119129/mobile_ad_banner"
-            rtc-config='{"urls": ["https://rtcEndpoint.biz/"}'
+            rtc-config='{"urls": ["https://rtcEndpoint.biz/"]}'
             json='{"targeting":{"loc": "usa", "animal": "cat"},
                    "categoryExclusions":["sports", "food", "fun"]}'>
 </amp-ad>
@@ -144,8 +144,8 @@ For instance, take this example where we call out to vendors, VendorA and Vendor
 <amp-ad width="320" height="50"
             type="doubleclick"
             data-slot="/4119129/mobile_ad_banner"
-            rtc-config='{"vendors": {"vendorA": {}, "vendorB": {}}'
-            json='{"targeting":{"abc":"123"}'>
+            rtc-config='{"vendors": {"vendorA": {}, "vendorB": {}}}'
+            json='{"targeting":{"abc":"123"}}'>
 </amp-ad>
 ```
 
